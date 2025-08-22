@@ -1,0 +1,40 @@
+# CODEOWNERS file for task-server-727
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/squad-apps @Armor-test/dept-api
+
+# Directory ownership
+/config/ @Armor-test/grp-payments @Armor-test/squad-ml
+/src/ @Armor-test/squad-apps @Armor-test/dept-ui @Armor-test/squad-payments
+/tools/ @Armor-test/squad-search @Armor-test/dept-billing
+/security/ @Armor-test/dept-billing @Armor-test/team-logging
+/auth/ @Armor-test/team-notifications @Armor-test/team-core
+/assets/ @Armor-test/grp-storage @Armor-test/squad-ml
+/controllers/ @Armor-test/squad-cache @Armor-test/team-notifications @Armor-test/unit-test
+/views/ @Armor-test/team-frontend @Armor-test/squad-apps @Armor-test/grp-payments
+/lib/ @Armor-test/squad-tooling @Armor-test/squad-performance @Armor-test/squad-product
+/styles/ @Armor-test/squad-tooling @Armor-test/dept-automation
+/static/ @Armor-test/squad-performance @Armor-test/team-security @Armor-test/grp-payments
+/extensions/ @Armor-test/squad-tooling @Armor-test/dept-reporting
+/internal/ @Armor-test/squad-tooling @Armor-test/unit-devops
+/tests/ @Armor-test/dept-test @Armor-test/squad-performance
+/scripts/ @Armor-test/team-reporting @Armor-test/squad-research
+
+# File type ownership
+*.ts @Armor-test/team-logging @Armor-test/grp-search @Armor-test/team-frontend
+*.cs @Armor-test/squad-database @Armor-test/dept-automation @Armor-test/squad-cache
+*.h @Armor-test/unit-test @Armor-test/squad-reporting
+*.go @Armor-test/grp-storage @Armor-test/team-governance
+*.xml @Armor-test/team-core @Armor-test/team-notifications @Armor-test/squad-cache
+*.java @Armor-test/dept-automation @Armor-test/grp-reporting @Armor-test/dept-test
+*.py @Armor-test/unit-test @Armor-test/dept-reliability
+*.scala @Armor-test/unit-devops @Armor-test/team-security @Armor-test/team-notifications
+*.gradle @Armor-test/team-research @Armor-test/squad-performance
+*.sh @Armor-test/team-core @Armor-test/dept-identity @Armor-test/dept-test
+*.c @Armor-test/team-research @Armor-test/squad-cache
+*.html @Armor-test/dept-test @Armor-test/team-reporting @Armor-test/dept-automation
+
+# Security and special files
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
